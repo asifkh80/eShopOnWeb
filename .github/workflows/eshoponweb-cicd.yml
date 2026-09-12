@@ -7,7 +7,7 @@ on: [push, workflow_dispatch]
 env:
   RESOURCE-GROUP: rg-eshoponweb-github
   LOCATION: canadacentral
-  TEMPLATE-FILE: infra/infra/simple-windows-vm.bicep
+  TEMPLATE-FILE: infra/infra/infra/webapp.bicep
   SUBSCRIPTION-ID: 4f7efe0e-7ad7-43b5-bc0c-b5571430110a
   WEBAPP-NAME: eshoponweb-webapp-application1
 
